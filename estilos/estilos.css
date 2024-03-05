@@ -1,0 +1,747 @@
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.nunito-<uniquifier>
+{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 
+/* fuentes */
+.nunito-fuente {
+    font-size: 14px; /* tamaño de letra */
+    font-weight: 1000; /* anchura de letra */
+    color: #B8B8B8;
+    }
+.barrasuperior
+{
+max-width: 1200px; /* tamaño maximo del ancho de la barra superior */
+margin: 0  auto; /* el margen de los lados de la barra superior */
+padding: 0 -20px; /* tamaño del cuadro en el que entran las cosas*/
+display: flex; /* que pocision va a tener lo que esta adentro de la barra */
+justify-content: space-around; /*area en el que estan ubicados */
+align-items: center;  /*  el como esta acomopdado lo que esta adentro de los divs */
+}
+.cabecera
+{
+    background-color: #fff; 
+    color: #000;
+    padding: 10px 0;
+}
+
+.menu
+
+{
+    list-style: none;
+    position: absolute;
+    top: 25px;
+    left: 580px;
+    right: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 1000;
+    
+}
+.menu > li > a
+{
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #c1c1c1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 5px 0px #fff;
+    width: 300PX;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menuvertical
+{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: #fff;
+
+
+}
+.menu li:hover .menuvertical
+{
+    display:block;
+}
+.menuvertical li:hover
+{
+    background-color: #fff;
+}
+.menuvertical li a
+{
+    display: block;
+    color: #000;
+    padding: 15px 15px 15px;
+}
+nav
+{
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50 px;
+}
+.menuvertical li a img {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y el texto si es necesario */
+}
+
+.botonempiezaahora
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4000px;
+    height: 100px;
+    margin-left: -800;
+
+
+a.botonDuolingo      /*boton */
+  
+ {
+    width: 500px;
+    height: 40px;
+    border-radius: 16px;
+    top: -140px;
+    left: 1750px;
+    right: 5px;
+
+    background-color: #31b112;
+    text-align: center;
+    padding: 10px;
+font-family: 'relaway',  sans-serif;
+color: white;
+text-decoration: none;
+position: relative;
+box-shadow: 0px 7px 0px #CECECE;
+    
+ }
+ }
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.nunito-Texto {
+    width: 80%;
+    margin: 50px auto; /* Centrar el contenedor en la página */
+}
+
+#parrafo1 {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    font-size: 35px; /* Cambia este valor según tus necesidades */
+    font-family: 'Arial', sans-serif; /* Cambia este valor según tus necesidades */
+
+}
+
+/* Cambiar posición del párrafo */
+#parrafo1
+{
+    position: relative;
+    left: 500px; /* Cambia este valor según tus necesidades */
+    top: -100px; /* Cambia este valor según tus necesidades */
+
+}
+.imagenduogif {
+     /* Hace que la imagen sea responsive y no se desborde del contenedor */
+    width: 300;
+    margin-left: 5xp;
+}
+
+
+.button-cuenta {
+    margin-bottom: 100px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 5px 0px #CECECE;
+    width: 300PX;
+    border-radius: 20px;
+    border: 2px solid #cecece;
+    color: #29A4DD;
+    text-transform: uppercase;
+    FONT-WEIGHT: 600;
+    top: 200;
+    margin-left: 1500;
+}
+
+.barrahori
+{
+    list-style: none;
+    padding: 10;
+    background: #cecece;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+   top: 700px;
+   left: 400;
+   position: absolute ;
+
+}
+.menuhorizontal li a 
+{
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    display: block;
+   
+}
+.menuhorizontal li
+{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.menuhorizontal li a img {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y el texto si es necesario */
+   }
+
+   .nunito-divertido {
+    width: 100%;
+   margin-top: 5PX; /* Centrar el contenedor en la página */
+   margin-left: 500PX;
+}
+
+#parrafo3 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -200px;
+ margin-left: -1300px;
+ color: #31b112;
+
+}
+
+
+.amigoduo {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 400px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 300px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo4 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+.contenedor {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor2 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top:5px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 1000px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo5 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+/* segundo parrafo*/
+.nunito-respaldado {
+    width: 100%;
+   margin-top: 5PX; /* Centrar el contenedor en la página */
+   margin-left: 500PX;
+  }
+  #parrafo6 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -290px;
+ margin-left: 420px;
+ color: #31b112;
+
+}
+
+.segundoduolingo {
+     
+    width: 400px;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+/*tercer parrafo*/
+.nunito-motivacion{
+    width: 100%;
+   margin-top: -600PX; /* Centrar el contenedor en la página */
+   margin-left: 1520PX;
+}
+
+#parrafo7 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -300px;
+ margin-left: -1200px;
+ color: #31b112;
+
+}
+
+
+.tercero {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor3 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 200px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo8 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+
+/*tcuarto parrafo*/
+
+.nunito-aprendizaje{
+    width: 100%;
+   margin-top: -500PX; /* Centrar el contenedor en la página */
+   margin-left: 800PX;
+}
+
+#parrafo9 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -400px;
+ margin-left: 50px;
+ color: #31b112;
+
+}
+
+
+.cuarto {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor4 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 900px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo10 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+
+.descargas{
+    margin-top: 16rem;
+    background-color: #c5dffa;
+    
+}
+.text_descarga{
+    color: #141c86;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 6rem;
+    padding: 3rem;
+    text-align: center;
+    font-style: italic; /* Agregar estilo cursiva*/
+    font-family: 'Montserrat', sans-serif; /* Cambiar a la fuente*/
+   
+}
+
+.apple{
+    background-color: #fff;
+    border: 2px solid #3f3d3b;
+    color: #3a3735;
+    padding: 1rem 4rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 16px;
+    width: 20%;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Transición suave */
+}
+.apple:hover{
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, .2);
+}
+.play{
+    background-color: #fff;
+    border: 2px solid #676665;
+    color: #252423;
+    padding: 1rem 4rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 16px;
+    width: 20%;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Transición suave */
+}
+.play:hover{
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.2); 
+}
+.button_descarga {
+    text-align: center; /* Alinear contenido al centro */
+}
+
+.button_descarga button {
+    margin: 0 10px; /* Margen entre los botones */
+    vertical-align: middle; /* Alinear verticalmente */
+}
+.img_descarga{
+    width: 70%;
+    text-align: right;
+    margin-top: 2rem;
+    margin-left: -100px;
+}
+
+
+
+.super{
+    margin-top: .06rem;
+    background-color: #6425FF;
+    
+}
+.img_super{
+    background-color: #6425FF;
+    width: 100%;
+    text-align: left;
+    padding: 3rem;
+    margin-left: 400;
+}
+.img1_super{
+    padding: 5rem;
+    margin-top: -450px;
+    margin-left: 60rem;
+}
+.boton_super{
+    background-color: #fff;
+    border: 2px solid #676665;
+    color: #676665;
+    padding: 1rem 4rem;
+    margin-top: 100px;
+    margin-left: 12rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 16px;
+    width: 50%;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Transición suave */
+   
+}
+.boton_super:hover{
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+.nunito-divertido2{
+    width: 100%;
+   margin-top: -600PX; /* Centrar el contenedor en la página */
+   margin-left: 1520PX;
+}
+
+#parrafo882 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -300px;
+ margin-left: -1200px;
+ color: #31b112;
+
+}
+
+
+.amigoduo2 {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor92 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 200px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo245 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+
+
+/* segundo parrafo*/
+.nunito-respaldado2 {
+    width: 100%;
+   margin-top: 5PX; /* Centrar el contenedor en la página */
+   margin-left: 500PX;
+  }
+  #parrafo62 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -200px;
+ margin-left: 420px;
+ color: #31b112;
+
+}
+
+.segundoduolingo2 {
+     
+    width: 400px;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+.contenedor22 {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor922 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 900px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo2452{
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+.nunito-motivacion2{
+    width: 100%;
+   margin-top: -600PX; /* Centrar el contenedor en la página */
+   margin-left: 1520PX;
+}
+
+#parrafo72 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -300px;
+ margin-left: -1200px;
+ color: #31b112;
+
+}
+
+
+.tercero2 {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor2222 {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor32 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 200px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo82 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
+
+
+.nunito-aprendizaje2{
+    width: 100%;
+   margin-top: -500PX; /* Centrar el contenedor en la página */
+   margin-left: 800PX;
+}
+
+#parrafo92 {
+    background-color: #ffffff;
+    padding: -100px;
+    border: -200px solid #ffffff;
+    font-size: 50px; /* Cambia este valor según tus necesidades */
+    font-family: 'comicsans', sans-serif; /* Cambia este valor según tus necesidades */
+ margin-top: -400px;
+ margin-left: 50px;
+ color: #31b112;
+
+}
+
+
+.cuarto2 {
+     
+    width: 400px;
+    margin-left: -500px;
+    margin-top: 600px;
+}
+
+.contenedor2222222 {
+    width: 70%; /* Puedes ajustar el ancho del contenedor principal según tus preferencias */
+    max-width: 800px; /* Limita el ancho total del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.subcontenedor42 {
+    background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 10px; /* Ajusta el espacio interno según tus preferencias */
+    border-radius: 0px; /* Puedes ajustar el radio del borde según tus preferencias */
+    margin-top: 20px; /* Puedes ajustar el espacio superior según tus preferencias */
+    column-count: 2; /* Ajusta el número de columnas según tus preferencias */
+    column-gap: 20px; /* Ajusta el espacio entre columnas según tus preferencias */
+    margin-left: 900px; /* Ajusta el desplazamiento hacia la derecha según tus preferencias */
+}
+
+.parrafo102 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    page-break-inside: avoid; /* Evita que el párrafo se divida en varias páginas (útil para la impresión) */
+    break-inside: avoid-column; /* Evita que el párrafo se divida entre columnas */
+    font-size: 16px; /* Ajusta el tamaño de la letra según tus preferencias */
+    line-height: 1.4; /* Ajusta el espacio entre líneas según tus preferencias */
+    font-size: 25px; /* Ajusta el nuevo tamaño de la letra según tus preferencias */
+
+}
